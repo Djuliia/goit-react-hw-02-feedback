@@ -6,8 +6,7 @@ export const Wrap = styled.div`
   padding: 48px;
   background: linear-gradient(to bottom, #5f9ea0, #e0ffff);
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  
+
 `;
 
 export const FeedbackBtn = styled.button`
@@ -19,8 +18,9 @@ export const FeedbackBtn = styled.button`
   color: white;
   cursor: pointer;
   transition: color 250ms linear, background-color 250ms linear;
-  :hover {
-    color: #000;
+  &:hover {
+    color: #008b8b;
     background-color: #fff;
+    border: 2px solid #008b8b;
   }
 `;
